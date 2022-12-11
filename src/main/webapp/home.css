@@ -1,0 +1,132 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2018/9/8, 下午 11:27:34
+    Author     : eugen
+*/
+
+/* header, content, leftAreaFunction, rightAreaDisplay 是選擇子對應 html 檔中的 id  */
+/* { 大括號內做 屬性值  設定 }  */
+#banner {
+    background-color: yellow;
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    font-size: 32pt;
+    font-family: 標楷體;
+    color: blue;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content {
+    background-color: greenyellow;
+    width: 100%;
+    height: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 標楷體;
+}
+
+/*    調整水平的對齊，用相對位置與紅色邊線線做調整>         */
+#leftAreaFunction, #rightAreaDisplay {
+    position: relative;
+    border: 1px solid red;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#leftAreaFunction {
+    background-color: greenyellow;
+    width: auto;
+    height: 100%;
+}
+
+#rightAreaDisplay {
+    background-color: pink;
+    width: auto;
+    height: 100%;
+}
+
+/*
+    flexl: control display horizon or vertical
+*/
+.flex-box {
+  display: flex;
+  background-color: greenyellow;
+}
+/*
+    flexl > form : display forms as style
+*/
+.flex-box > form { 
+  margin: 5px;
+
+}
+
+.flex-box > form > input{
+  font-size: 16px;
+  font-family: 標楷體;    
+}
+
+/*
+    making table boder with single line
+*/
+
+table, td {             
+  border: 1px solid blue;
+  border-collapse: collapse;
+}
+
+td{
+    overflow: hidden; 
+    word-wrap:break-word;
+}
+
+.flex-box > input { 
+  margin: 5px;
+  font-size: 16px;
+  font-family: 標楷體;   
+}
+
+#loading{
+    display: none;
+    position: relative;
+    margin: 5px;
+    height: 35px;
+    width: auto;
+    background: #050321;
+    box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.30);
+    text-align: center;
+}
+.loadingcss{
+    position: relative;
+    background-color: #344151;
+    overflow: hidden;
+    height: 35px;
+    width: 150px;
+    white-space: nowrap;
+    text-align: center;
+    margin: auto;
+}
+.loadingtextcss{
+    position: relative;
+    font-family: 標楷體;    
+    text-align: center;
+    font-size: 28px;
+    display: inline-block;
+    animation-name: move;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    color: #EBB55F;
+    margin: auto;
+}
+@keyframes move{
+    from{
+        left: 100%;
+    }to{
+        left: -180%;}
+}
