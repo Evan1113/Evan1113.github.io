@@ -1,0 +1,453 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-image: url(/inhomepic/gym.jpg);
+    background-size:cover;
+    background-position:center;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+.a{
+    position: relative;
+    width: 250px;
+    height: 100%;
+    background-image: url(/p1/i.jpg);
+    background-size:cover;
+    background-position:center;   
+}
+.a1 a:link{
+    text-decoration:none;
+    color: black;
+}
+.a1 a:visited{
+    text-decoration:none;
+    color: black;
+}
+header{
+    display: flex;
+    background-color: rgb(231, 231, 247);
+    width: 100%;
+    height: 150px;
+}
+.a1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 35%;
+    height: 100%;
+    width: 350px;
+}
+.p{
+    text-decoration:none;
+    font-size: 130%;
+}
+.a2{
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+.pic{
+    position: relative;
+    background-image: url(/p1/1.jpg);
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 300px;
+}
+.b{
+    position: relative;
+    display: flex;
+    margin-top: 5%;
+    width: 100%;
+    justify-content: space-around;
+}
+.back{
+    position: relative;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+}
+.runa{
+    position: relative;
+    height: 100%;
+    width: 45%;
+}
+.nn{
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+.runp{
+    position: relative;
+    display: none;
+    width: 60%;
+    height: 300px;
+    background-image: url(/inhomepic/run1.jpg);
+    background-size:cover;
+    background-position:center; 
+    top: 20px;
+}
+.run{
+    position: relative;
+    background-image: url(/inhomepic/run1.jpg);
+    background-size:cover;
+    background-position:center; 
+    top: 55px;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 75px;
+}
+.runt{
+    display: none;
+    position: relative;
+    width: 40%;
+    height: 100%;
+    font-size: 18px;
+    color: white;
+}
+.runt p{
+    cursor: pointer;
+}
+.runt p:hover{
+    color: red;
+}
+.run:hover{
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .6);
+}
+.run:hover span{
+    display: block;
+    color: white;
+}
+.run span{
+    display: none;
+}
+.bikea{
+    position: relative;
+    height: 100%;
+    width: 45%;
+}
+.bike{
+    position: relative;
+    background-image: url(/inhomepic/bike1.jpg);
+    background-size:cover;
+    background-position:center;
+    top: 55px;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 75px;
+}
+.bikep{
+    position: relative;
+    display: none;
+    width: 60%;
+    height: 300px;
+    background-image: url(/inhomepic/bike1.jpg);
+    background-size:cover;
+    background-position:center; 
+    top: 20px;
+}
+.biket{
+    display: none;
+    position: relative;
+    width: 40%;
+    height: 100%;
+    font-size: 18px;
+    color: white;
+}
+.biket p{
+    cursor: pointer;
+}
+.biket p:hover{
+    color: red;
+}
+.bike:hover{
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .6);
+}
+.bike:hover span{
+    display: block;
+    color: white;
+}
+.bike span{
+    display: none;
+}
+.powera{
+    position: relative;
+    height: 100%;
+    width: 45%;
+}
+.power{
+    position: relative;
+    background-image: url(/inhomepic/power1.jpg);
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 75px;
+}
+.powerp{
+    position: relative;
+    display: none;
+    width: 60%;
+    height: 300px;
+    background-image: url(/inhomepic/power1.jpg);
+    background-size:cover;
+    background-position:center; 
+    top: 20px;
+}
+.powert{
+    display: none;
+    position: relative;
+    width: 40%;
+    height: 100%;
+    font-size: 18px;
+    color: white;
+}
+.powert p{
+    cursor: pointer;
+}
+.powert p:hover{
+    color: red;
+}
+.power:hover{
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .6);
+}
+.power:hover span{
+    display: block;
+    color: white    ;
+}
+.power span{
+    display: none;
+}
+.othera{
+    position: relative;
+    height: 100%;
+    width: 45%;
+}
+.other{
+    position: relative;
+    background-image: url(/inhomepic/other2.jpg);
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    line-height: 400px;
+    font-size: 75px;
+}
+.otherp{
+    position: relative;
+    display: none;
+    width: 60%;
+    height: 300px;
+    background-image: url(/inhomepic/other1.png);
+    background-size:cover;
+    background-position:center; 
+    top: 20px;
+}
+.othert{
+    display: none;
+    position: relative;
+    width: 40%;
+    height: 100%;
+    font-size: 18px;
+    color: white;
+}
+.othert p{
+    cursor: pointer;
+}
+.othert p:hover{
+    color: red;
+}
+.other:hover{
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0, .6);
+}
+.other:hover span{
+    display: block;
+    color: white    ;
+}
+.other span{
+    display: none;
+}
+
+footer{
+    height: 127px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+    font-size: 14px;
+    color: dimgray;
+    font-family:sans-serif;
+    font-weight:bolder;
+}
+.bu{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    justify-content: space-around;
+}
+.bu span{
+    cursor: pointer;
+    display: block;
+    border-radius: 15px;    
+    border: 2px solid black;
+    font-size: 20px;
+    background-color: rgb(231, 231, 247);
+}
+.ww{
+    display: none;
+}
+@media screen and (max-width:1550px){
+    .runt{
+        font-size: 16px;
+    }
+    .othert{
+        font-size: 16px;
+    }
+}
+@media screen and (max-width:1400px){
+    .runp{
+        height: 250px;
+    }
+    .bikep{
+        height: 250px;
+    }
+    .powerp{
+        height: 250px;
+    }
+    .otherp{
+        height: 250px;
+    }
+}
+@media screen and (max-width:900px){
+    .b{
+        display: block;
+    }
+    .runa{
+        width: 80%;
+        left: 10%;
+    }
+    .bikea{
+        width: 80%;
+        left: 10%;
+    }
+    .powera{
+        width: 80%;
+        left: 10%;
+    }
+    .othera{
+        width: 80%;
+        left: 10%;
+    }
+    .power{
+        top: 55px;
+    }
+    .other{
+        top: 55px;
+    }
+    .ww{
+        display: unset;
+    }
+
+}
+@media screen and (max-width:550px){
+    .p{
+        font-size: medium;
+    }
+    .a{
+        width: 150px;
+    }
+    header{
+        height: 100px;
+    }
+    .run{
+        height: 300px;
+        line-height: 300px;
+    }
+    .bike{
+        height: 300px;
+        line-height: 300px;
+    }
+    .power{
+        height: 300px;
+        line-height: 300px;
+    }
+    .other{
+        height: 300px;
+        line-height: 300px;
+    }
+    .nn{
+        display: block;
+    }
+    .runt{
+        width: 100%;
+        text-align: center;
+    }
+    .biket{
+        width: 100%;
+        text-align: center;
+    }
+    .powert{
+        width: 100%;
+        text-align: center;
+    }
+    .othert{
+        width: 100%;
+        text-align: center;
+    }
+    .runp{
+        width: 80%;
+        left: 10%;
+    }
+    .bikep{
+        width: 80%;
+        left: 10%;
+    }
+    .powerp{
+        width: 80%;
+        left: 10%;
+    }
+    .otherp{
+        width: 80%;
+        left: 10%;
+    }
+}
+@media screen and (max-width:400px){
+    .runp{
+        height: 200px;
+    }
+    .bikep{
+        height: 200px;
+    }
+    .powerp{
+        height: 200px;
+    }
+    .otherp{
+        height: 200px;
+    }
+    .runt{
+        font-size: 14px;
+    }
+    .biket{
+        font-size: 14px;
+    }
+    .powert{
+        font-size: 14px;
+    }
+    .othert{
+        font-size: 14px;
+    }
+    .p{
+        font-size: 14px;
+    }
+}

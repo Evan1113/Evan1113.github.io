@@ -1,0 +1,150 @@
+.back{
+    margin:0%;
+    padding:0%;
+    background-image: url(/p1/4.jpg);
+}
+.a{
+    position: relative;
+    width: 250px;
+    height: 100%;
+    background-image: url(/p1/i.jpg);
+    background-size:cover;
+    background-position:center;
+    
+}
+header{
+    display: flex;
+    background-color: rgb(231, 231, 247);
+    width: 100%;
+    height: 150px;
+}
+.a1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 35%;
+    height: 100%;
+    width: 350px;
+}
+.a1 a:link{
+    text-decoration:none;
+    color: black;
+}
+.a1 a:visited{
+    text-decoration:none;
+    color: black;
+}
+.p{
+    text-decoration:none;
+    font-size: 130%;
+}
+.aa1{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.a3{
+    position: relative;
+    width: 30%;
+    height: 400px;
+    margin-left: 2.5%;
+    margin-top: 0;
+    text-align: center;
+    background-color: burlywood;
+    color: white;
+}
+.a4{
+    position: relative;
+    font-size: 180%;
+    top: 5%;
+}
+.a5{
+    position: relative;
+    font-size: 130%;
+    top: 5%;
+}
+.a6{
+    position: relative;
+    width: 30%;
+    height: 400px;
+    margin-left: 2.5%;
+    margin-top: 0;
+    text-align: center;
+    background-color: rgb(226, 154, 60);
+    color: white;
+}
+.i2{
+    position: relative;
+    width: 30%;
+    height: 400px;
+    text-align: center;
+    color: white;
+    font-size: 200%; 
+    margin-left: 2.5%;
+    background-image: url(/p1/3.jpg);
+}
+.a7{
+    position: relative;
+    width: 30%;
+    height: 400px;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    text-align: center;
+    background-color: rgb(207, 190, 36);
+    color: white;
+}
+.a8{
+    position: relative;
+    width: 30%;
+    height: 400px;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    text-align: center;
+    background-color: rgb(93, 153, 46);
+    color: white;
+}
+.a9{
+    position: relative;
+    width: 30%;
+    height: 400px;
+    margin-left: 2.5%;
+    margin-top: 2.5%;
+    text-align: center;
+    background-color: rgb(187, 90, 10);
+    color: white;
+}
+.a10{
+    position: relative;
+    object-fit:cover;
+    margin: 2% auto;
+    width: 90%;
+    height: 250px;
+}
+.slider{
+    position: relative;
+    margin-top: 3%;
+    object-fit:cover;
+}
+.a12{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    background-color: rgb(231, 231, 247);
+}
+.a13{
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    margin-left: 5%;
+}
+footer{
+    height: 127px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+    font-size: 14px;
+    color: dimgray;
+    font-family:sans-serif;
+    font-weight:bolder;
+}

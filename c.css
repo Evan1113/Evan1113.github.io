@@ -1,0 +1,388 @@
+body{
+    margin: auto;
+    padding: auto;
+}
+.logo{
+    position: relative;
+    width: 250px;
+    height: 100%;
+    background-image: url(/p1/i.jpg);
+    background-size:cover;
+    background-position:center;
+    
+}
+header{
+    display: flex;
+    background-color: rgb(231, 231, 247);
+    width: 100%;
+    height: 150px;
+}
+.ti{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 35%;
+    height: 100%;
+    width: 350px;
+}
+.ti a:link{
+    text-decoration:none;
+    color: black;
+}
+.ti a:visited{
+    text-decoration:none;
+    color: black;
+}
+.p{
+    text-decoration:none;
+    font-size: 130%;
+}
+.a1{ 
+    width: 280px; 
+    height: 150px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-size: 85%;
+    background-image: url(https://www.impulsefitness.com/u/cms/www/201603/20235709zchf.jpg)
+}
+.a2{
+    background-color: rgb(239, 240, 175);
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50%;
+    height: 450px;
+    border-radius: 20px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+}
+.a3{
+    width: 300px; 
+    height: 130px;
+    border-color: rgb(238, 224, 238);
+    background-color:rgb(238, 224, 238);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.a5{
+    display: flex;
+}
+.a4{
+    width: 260px; 
+    height: 245px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 80px;
+    margin-left: 350px;
+    background-size: 85%;
+    background-image: url(http://img.keeprun.cn/upload/a/20160308/956.gif)
+}
+.p1{
+    display: flex;
+}
+.b1{ 
+    width: 280px; 
+    height: 150px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-size: 85%;
+    background-image: url(https://www.impulsefitness.com/u/cms/www/201603/20235423eznp.jpg)
+}
+.b2{
+    background-color: rgb(239, 240, 175);
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50%;
+    height: 450px;
+    border-radius: 20px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+}
+.b3{
+    width: 300px; 
+    height: 140px;
+    border-color: rgb(238, 224, 238);
+    background-color:rgb(238, 224, 238);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.b5{
+    display: flex;
+}
+.b4{
+    width: 260px; 
+    height: 245px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 80px;
+    margin-left: 350px;
+    background-size: 85%;
+    background-image: url(https://www.jirou.com/uploads/allimg/111022/1_111022174450_6.gif)
+}
+.c1{ 
+    width: 280px; 
+    height: 150px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-size: 85%;
+    background-image: url(https://www.impulsefitness.com/u/cms/www/201603/20235740k3p4.jpg)
+}
+.c2{
+    background-color: rgb(239, 240, 175);
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50%;
+    height: 450px;
+    border-radius: 20px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+}
+.c3{
+    width: 300px; 
+    height: 140px;
+    border-color: rgb(238, 224, 238);
+    background-color:rgb(238, 224, 238);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.c5{
+    display: flex;
+}
+.c4{
+    width: 260px; 
+    height: 245px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 80px;
+    margin-left: 350px;
+    background-size: 85%;
+    background-image: url(https://sportsplanetmag-aws.hmgcdn.com/public/article/atl_20190325155945_103.jpg)
+}
+.d1{ 
+    width: 280px; 
+    height: 150px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-size: 85%;
+    background-image: url(https://www.impulsefitness.com/u/cms/www/201603/2023581101un.jpg)
+}
+.d2{
+    background-color: rgb(239, 240, 175);
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50%;
+    height: 450px;
+    border-radius: 20px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+}
+.d3{
+    width: 300px; 
+    height: 130px;
+    border-color: rgb(238, 224, 238);
+    background-color:rgb(238, 224, 238);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.d5{
+    display: flex;
+}
+.d4{
+    width: 260px; 
+    height: 245px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 80px;
+    margin-left: 350px;
+    background-size: 85%;
+    background-image: url(http://img.mp.itc.cn/upload/20170313/0cb680810d14441688ad5b4287c457b5.gif)
+}
+.e1{ 
+    width: 280px; 
+    height: 150px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-size: 85%;
+    background-image: url(https://www.impulsefitness.com/u/cms/www/201603/20235626jne5.jpg)
+}
+.e2{
+    background-color: rgb(239, 240, 175);
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50%;
+    height: 450px;
+    border-radius: 20px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+}
+.e3{
+    width: 300px; 
+    height: 130px;
+    border-color: rgb(238, 224, 238);
+    background-color:rgb(238, 224, 238);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.e5{
+    display: flex;
+}
+.e4{
+    width: 260px; 
+    height: 245px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 80px;
+    margin-left: 350px;
+    background-size: 85%;
+    background-image: url(http://www.jianshen8.com/uploads/allimg/160719/11_160719113935_1.gif)
+}
+.f1{ 
+    width: 280px; 
+    height: 150px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-size: 85%;
+    background-image: url(https://www.impulsefitness.com/u/cms/www/201911/260915000681.jpg)
+}
+.f2{
+    background-color: rgb(239, 240, 175);
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50%;
+    height: 450px;
+    border-radius: 20px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+}
+.f3{
+    width: 300px; 
+    height: 130px;
+    border-color: rgb(238, 224, 238);
+    background-color:rgb(238, 224, 238);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.f5{
+    display: flex;
+}
+.f4{
+    width: 260px; 
+    height: 245px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 80px;
+    margin-left: 350px;
+    background-size: 85%;
+    background-image: url(http://s9.rr.itc.cn/r/wapChange/20138_21_18/a68s6q2089655082340.jpg)
+}
+.g1{ 
+    width: 280px; 
+    height: 150px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-size: 85%;
+    background-image: url(https://www.impulsefitness.com/u/cms/www/201911/26091212s6fs.jpg)
+}
+.g2{
+    background-color: rgb(239, 240, 175);
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50%;
+    height: 450px;
+    border-radius: 20px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+}
+.g3{
+    width: 300px; 
+    height: 130px;
+    border-color: rgb(238, 224, 238);
+    background-color:rgb(238, 224, 238);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.g5{
+    display: flex;
+}
+.g4{
+    width: 260px; 
+    height: 245px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 80px;
+    margin-left: 350px;
+    background-size: 85%;
+    background-image: url(https://www.fitundattraktiv.de/wp-content/uploads/2018/06/latzug_untergriff-maschine.gif)
+}
+.h1{ 
+    width: 280px; 
+    height: 150px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-size: 85%;
+    background-image: url(https://www.impulsefitness.com/u/cms/www/201911/26100719no8m.jpg)
+}
+.h2{
+    background-color: rgb(239, 240, 175);
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 50%;
+    height: 450px;
+    border-radius: 20px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+}
+.h3{
+    width: 300px; 
+    height: 130px;
+    border-color: rgb(238, 224, 238);
+    background-color:rgb(238, 224, 238);
+    border-style: solid;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.h5{
+    display: flex;
+}
+.h4{
+    width: 260px; 
+    height: 245px;
+    border-color: rgb(2, 19, 36);
+    border-style: solid;
+    margin-top: 80px;
+    margin-left: 350px;
+    background-size: 85%;
+    background-image: url(https://image.pttnews.cc/2018/07/21/e54bea2a3a/50d41659aa3e5711ff610645ca876662.jpg?redirect=true)
+}
+footer{
+    height: 127px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+    font-size: 14px;
+    color: dimgray;
+    font-family:sans-serif;
+    font-weight:bolder;
+}

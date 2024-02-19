@@ -1,0 +1,112 @@
+body{
+    margin: auto;
+    padding: auto;
+    background-image: url(/p1/snow.jpg);
+}
+.a{
+    position: relative;
+    width: 250px;
+    height: 100%;
+    background-image: url(/p1/i.jpg);
+    background-size:cover;
+    background-position:center;
+}
+header{
+    display: flex;
+    background-color: rgb(231, 231, 247);
+    width: 100%;
+    height: 150px;
+}
+.a1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    top: 35%;
+    height: 100%;
+    width: 350px;
+}
+.a1 a:link{
+    text-decoration:none;
+    color: black;
+}
+.a1 a:visited{
+    text-decoration:none;
+    color: black;
+}
+.p{
+    text-decoration:none;
+    font-size: 130%;
+}
+.p1{
+    position: relative;
+    background-image: url(/p1/1.jpg);
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 300px;
+}
+.b{
+    position: relative;
+    display: flex;
+    left: 10%;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(148, 189, 207);
+}
+.p2{
+    position: relative;
+    background-size:cover;
+    background-position:center;
+    width: 100%;
+    height: 100%;
+}
+.a2{
+    position: relative;
+    margin-left: 0%;
+    background-color: rgb(112, 112, 231);
+    width: 100%;
+    height: 100%;
+}
+.a3{
+    position: relative;
+    text-align: center;
+    margin-top: -1%;
+    font-size: 150%;
+    color: white;
+}
+.a4{
+    position: relative;
+    text-align: center;
+    color: white;
+    font-size: 130%;
+    margin-top: -5%;
+}
+.a5{
+    position: relative;
+    margin-left: 20%;
+    background-color: rgb(112, 112, 231);
+    width: 100%;
+    height: 100%;
+}
+.a6{
+    position: relative;
+    object-fit:cover;
+    margin: 0 auto;
+    width: 90%;
+    height: 500px;
+}
+.slider{
+    position: relative;
+    margin-top: 1%;
+    object-fit:cover;
+}
+footer{
+    height: 127px;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(221, 221, 221);
+    font-size: 14px;
+    color: dimgray;
+    font-family:sans-serif;
+    font-weight:bolder;
+}
